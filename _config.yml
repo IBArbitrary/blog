@@ -1,0 +1,23 @@
+title: "ibarbitrary's blog"
+description: "A personal blog."
+baseurl: "/"
+url: "https://ibarbitrary.github.io"
+
+#google_analytics: UA-NNNNNNNN-N
+
+header_pages:
+  - index.md
+  - about.md
+
+footer: 'follow on <a href="https://instagram.com/IBArbitrary">instagram</a>'
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+plugins:
+  - jekyll-seo-tag
+
+markdown: kramdown

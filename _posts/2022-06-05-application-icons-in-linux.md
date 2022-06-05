@@ -11,6 +11,6 @@ The premise is that I wanted to show `VirtualBox` icons in a notification which 
 
 Turns out the app icons are located at `/usr/share/pixmaps`.
 
-![]({{site.baseurl}}assets/img/notif-icon.webp)
+![]({{site.baseurl}}/assets/img/notif-icon.webp)
 
 Cheers.

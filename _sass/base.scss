@@ -50,6 +50,9 @@ a:hover {
   color: var(--background-color);
   background-color: var(--base-color);
 }
+hr {
+  border: 1px solid var(--code-color-11);
+}
 @media only screen and (max-device-width: 500px) {
   * {
     font-size: $mobile-font-size !important;

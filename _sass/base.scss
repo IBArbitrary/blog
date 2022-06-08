@@ -53,6 +53,9 @@ a:hover {
 hr {
   border: 1px solid var(--code-color-11);
 }
+hr.footnote {
+  border: 1px dotted var(--code-color-11);
+}
 @media only screen and (max-device-width: 500px) {
   * {
     font-size: $mobile-font-size !important;

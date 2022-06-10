@@ -42,6 +42,12 @@ ol {
   margin: 0px;
   color: var(--text-color);
 }
+ul.tag-list-main {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  list-style-position: inside;
+}
 a {
   text-decoration: underline;
   color: var(--link-color);
@@ -49,6 +55,9 @@ a {
 a:hover {
   color: var(--background-color);
   background-color: var(--base-color);
+}
+.menu a {
+  text-decoration: none;
 }
 hr {
   border: 1px solid var(--code-color-11);
@@ -105,6 +114,10 @@ header p {
 }
 footer {
   margin-bottom: 20px;
+}
+div.tag-list {
+  float: right;
+  text-align: right;
 }
 
 /**

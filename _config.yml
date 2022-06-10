@@ -6,8 +6,8 @@ url: "ibarbitrary.github.io"
 #google_analytics: UA-NNNNNNNN-N
 
 header_pages:
-  - index.md
   - about.md
+  - tags.html
 
 footer: 'follow on <a href="https://instagram.com/IBArbitrary">instagram</a>'
 

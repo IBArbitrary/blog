@@ -1,5 +1,5 @@
 ---
-title: home
+title: ibarbitrary's blog
 layout: home
 permalink: /
 ---

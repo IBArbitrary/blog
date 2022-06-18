@@ -40,7 +40,7 @@ The following part removes dulpicated tags and invalid tags like blank tag.
 The purpose of this snippet is to list all the tags you have in your site.
 =======================
 {% endcomment %}
-<ul class="tag-list-main">
+<ul class="tag-list-main special">
     {% for tag in tags %}
 
     <li><a href="#{{ tag | slugify }}"> {{- tag -}} </a></li>
@@ -58,7 +58,7 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
 {% endcomment %}
 {% for tag in tags %}
 <h2 id="{{ tag | slugify }}">{{- tag -}}</h2>
-<ul>
+<ul class="special">
     {%- for post in site.posts -%}
     {%- if post.tags contains tag -%}
 

@@ -74,9 +74,19 @@ hr.footnote {
   margin-bottom: 0.5pt !important;
 }
 
+sup {
+  vertical-align: super !important;
+  line-height: 0.5em;
+  font-size: 10px;
+}
+
 @media only screen and (max-device-width: 500px) {
   * {
     font-size: $mobile-font-size !important;
+  }
+
+  sup {
+    font-size: 7px !important;
   }
 }
 
@@ -133,10 +143,7 @@ div.tag-list {
   float: right;
   text-align: right;
 }
-sup {
-  vertical-align: top;
-  font-size: 0.7em;
-}
+
 
 /**
  * Highlight/Markup

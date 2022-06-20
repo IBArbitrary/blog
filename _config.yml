@@ -9,7 +9,7 @@ header_pages:
   - about.md
   - tags.html
 
-footer: 'Find me on <a href="https://instagram.com/IBArbitrary">instagram</a>, <a href="https://github.com/IBArbitrary">github</a>'
+footer: 'find me on <a href="https://instagram.com/IBArbitrary">instagram</a>, <a href="https://github.com/IBArbitrary">github</a>.'
 
 plugins:
   - jekyll-seo-tag

@@ -110,9 +110,17 @@ footer {
   color: var(--text-color);
   border-top: var(--border);
   margin: 20px auto 15px;
-  padding-top: 10px;
-  text-align: right;
+  padding: 10px 0 10px 0;
 }
+
+div.follow {
+  float: right;
+}
+
+a.top {
+  float: left;
+}
+
 header {
   margin-top: 25px;
   margin-bottom: 10px;
@@ -120,9 +128,6 @@ header {
 header p {
   text-align: left;
   margin: 0;
-}
-footer {
-  margin-bottom: 20px;
 }
 div.tag-list {
   float: right;
